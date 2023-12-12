@@ -1,0 +1,52 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(148, 219, 224);
+}
+#cabeca{
+    background-color: rgb(205, 56, 56);
+    color: white;
+    position: relative;
+    padding-bottom: 20px;
+    width: 100vw;
+    height: 100px;
+}
+#saudacao{
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+}
+.lista{
+    font-size: 30px;
+    display:inline ;
+    padding: 30px;
+}
+#ule{
+    position: absolute;
+    list-style: none;
+    width: 500px;
+    left: 30vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(18, 144, 71);
+}
+#pokebola{
+    width: 80px;
+    bottom: 20px;
+    left: 70px;
+    position: absolute;
+    
+}
+#login{
+    position: relative;
+    top: 20px;
+    left:35vw ;
+    font-size: 30px;
+    width: 100px;
+    color: rgb(83, 79, 79);
+}

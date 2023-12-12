@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <title>Cadastro</title>
+    <style>
+        input{
+            width: 200px;
+            height: 30px;
+            border: 1px solid rgb(205, 56, 56);
+        }
+        button {
+            transition-duration: 0.7s;
+            width: 120px;
+            height: 50px;
+            background-color: rgb(116, 241, 194);
+            font-size: large;
+            margin-top: 15px;
+}
+        button:hover {
+            background-color: #04AA6D; /* Green */
+            color: white;
+}
+        
+    </style>
+</head>
+<body>
+    <div id="cabeca">
+        <h1 id="saudacao">Bem vindo ao PegaMon</h1>
+        <ul id="ule">  
+            <li class="lista"><a href="logar.html">Logar</a> </li>
+            <li class="lista"><a href="cadastro.html">Cadastrar</a> </li>
+            <li class="lista"><a href="sobre.html">Sobre</a></li>
+            
+        </ul>
+        <a href="index.html"><img id="pokebola"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/601px-Pokebola-pokeball-png-0.png"> </a>
+    </div>
+    <form id="login"action="">
+        Nome<input type="text" id="nomeC" placeholder="Ex:Ana">
+        Email<input type="email" id="emailC"  placeholder="Ex:Robsonsouza@gmail.com" required>
+        Senha<input type="password"id="senhaC" required>
+        <button onclick="addtreinador()" id="cadastrar"  type="submit"> Cadastrar </button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
