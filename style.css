@@ -41,6 +41,7 @@ a:hover{
     left: 70px;
     position: absolute;
     
+    
 }
 #login{
     position: relative;
@@ -49,4 +50,29 @@ a:hover{
     font-size: 30px;
     width: 100px;
     color: rgb(83, 79, 79);
+}
+
+#last{
+    background-color: rgb(250, 250, 158);
+    color: rgb(32, 58, 189);
+    position: absolute;
+    /*top:10px;
+    right: 0;*/
+
+}
+
+#last ul{
+    display: inline-block;
+    margin:15px; 
+    
+}
+#last li{
+    list-style: none;
+    padding-left: 15px;
+    
+
+}
+
+#meupok{
+    background-color: black;
 }

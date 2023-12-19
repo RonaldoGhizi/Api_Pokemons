@@ -29,26 +29,42 @@ input{
         #last{
             margin-left: 30px;
         }
+        #pokeapi{
+            font-size: large;
+            color: blue;
+            list-style-type: none;
+            background-color: rgb(245, 243, 218);
+            width: 200px;
+        }
+        #putpoke{
+            width: 200px;
+        }
     </style>
 </head>
 <body>
     <div id="cabeca">
         <h1 id="saudacao">Bem vindo ao PegaMon</h1>
         <ul id="ule">  
-            <li class="lista"><a href="logar.html"></a> </li>
+            <!--<li class="lista"><a href="logar.html"></a> </li>   
             <li class="lista"><a href="cadastro.html"></a> </li>
             <li class="lista"><a href="registrado.html"></a></li>
-        </ul>
-    
+        </ul> -->
+    </div>
         Pokemon<input type="text"id="nomepokemon" placeholder="Ex: Pikachu" required>
         <button type="submit" onclick="pega_mon()" id="procuramon">Procurar Pokemon</button>
 
     <div id="local">
         
     </div>
-    <div id="last">
-        ID<input type="text"id="mostrar" required>
-        <button onclick="mostrapoke()">Meus Pokemons</button></div>
+    
+        <!--ID<input type="text"id="mostrar" required>-->
+        <button onclick="mostrapoke()">Meus Pokemons</button>
+        <button onclick="delpokemon()">Excluir Pokemon</button>
+        <button id="putpoke"onclick="mudanome()">Mudar Nome do Pokemon</button>
+        
+        <div id="last"> </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
