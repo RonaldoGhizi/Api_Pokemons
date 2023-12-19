@@ -59,8 +59,7 @@ async function procuramon(pokemonName) {
             alert( this.status + " \n " + this.responseText );
         }
     }
-    alert(pokemon+" KAKAKAKAK")
-    alert(nomedad+" LULULULU")
+
     ajax.open("POST", "http://localhost:8001/addpokemon", true );
     ajax.setRequestHeader( "Content-type" ,"application/x-www-form-urlencoded" );
     ajax.send("nomedado="+nomedad+"&nome="+pokemon+"&tipo="+tipo+"&img="+img);
