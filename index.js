@@ -96,7 +96,7 @@ servidor.get('/auth/google/callback',
               });
               logando(nome,email,senha)
             }
-        res.setHeader('Location', 'http://127.0.0.1:5501/registrado.html');
+        res.setHeader('Location', 'http://127.0.0.1:5500/Api_Pokemons/registrado.html');
         res.send(302);
     }
 );
